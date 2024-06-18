@@ -94,13 +94,13 @@ Team ID : `C241-PS414`
 ## 5. Recommendation
   - **Based on Tourism Type**:
     - Calculates the distance and recommends based on the user's selected tour category.
-    <img src="https://github.com/Near-of-Destination-NoD-C241-PS414/machine-learning/blob/main/Dokumentasi/Result%20of%20Recommendaation%20by%20Jarak.png" alt="Result of Recommendaation by Distance" width="300"/>
+    <img src="https://github.com/Near-of-Destination-NoD-C241-PS414/machine-learning/blob/main/Dokumentasi/Result%20of%20Recommendation%20by%20Jenis%20Wisata.png" alt="Result of Recommendaation by Type of Tourism" width="600"/>
   - **Based on Distance**:
     - Calculates distance and recommends nearby tourist attractions.
-    <img src="https://github.com/Near-of-Destination-NoD-C241-PS414/machine-learning/blob/main/Dokumentasi/Result%20of%20Recommendation%20by%20Jenis%20Wisata.png" alt="Result of Recommendaation by Type of Tourism" width="300"/>
+    <img src="https://github.com/Near-of-Destination-NoD-C241-PS414/machine-learning/blob/main/Dokumentasi/Result%20of%20Recommendaation%20by%20Jarak.png" alt="Result of Recommendaation by Distance" width="600"/>
   - **Based on Reviews**:
     - Calculates distance and sorts based on the number of reviews.
-    <img src="https://github.com/Near-of-Destination-NoD-C241-PS414/machine-learning/blob/main/Dokumentasi/Result%20of%20Recommendation%20by%20Reviews.png" alt="Result of Recommendaation by Reviews" width="300"/>
+    <img src="https://github.com/Near-of-Destination-NoD-C241-PS414/machine-learning/blob/main/Dokumentasi/Result%20of%20Recommendation%20by%20Reviews.png" alt="Result of Recommendaation by Reviews" width="600"/>
 
 ## 6. Save Model
   ```
