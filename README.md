@@ -12,6 +12,7 @@ Team ID : `C241-PS414`
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Modeling](#modeling)
 - [Recommendation Methods](#recommendation-methods)
+- [Save Model](#save-model)
 - [Testing and Evaluation](#testing-and-evaluation)
   
 ## 1. Installation and Import Libraries
@@ -98,7 +99,22 @@ Team ID : `C241-PS414`
   - **Based on Reviews**:
     - Calculates distance and sorts based on the number of reviews.
 
-## 6. Testing and Evaluation
+## 6. Save Model
+  ```
+  model_jenis_wisata.export('mymodel')
+  
+  import subprocess
+  command = [
+      'tensorflowjs_converter',
+      '--input_format', 'tf_saved_model',
+      '--output_format','tfjs_graph_model',
+      'mymodel',  # Input Keras model file
+      'tfjs_model12'   # Output directory for the TensorFlow.js model
+  ]
+  subprocess.run(command)
+  ```
+
+## 7. Testing and Evaluation
   - Testing the model with various user scenarios to get recommendations.
 <p>
 # Author:
