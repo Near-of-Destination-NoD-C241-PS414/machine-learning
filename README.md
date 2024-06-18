@@ -116,7 +116,7 @@ Team ID : `C241-PS414`
 
 ## 7. Testing and Evaluation
   - Testing the model with various user scenarios to get recommendations.
-<p>
+
 # Author:
 1. (ML) M298D4KY2810- David Mario Yohanes Samosir - Ganesha University of Education
 2. (ML) M298D4KY2631- Komang Wibisana - Ganesha University of Education
