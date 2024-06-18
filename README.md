@@ -31,18 +31,26 @@ Team ID : `C241-PS414`
     ```
     import pandas as pd
     import numpy as np
-    from sklearn.model_selection import train_test_split
-    from sklearn.preprocessing import StandardScaler
+    import sklearn
     import seaborn as sns
     import matplotlib.pyplot as plt
+    from sklearn.preprocessing import LabelEncoder, StandardScaler
+    from sklearn.model_selection import train_test_split
+    from sklearn.metrics import mean_squared_error, mean_absolute_error
     import tensorflow as tf
+    from tensorflow.keras.models import Model, Sequential, load_model
+    from tensorflow.keras.layers import Input, Dense, Embedding, Flatten, Concatenate, Dropout
+    from tensorflow.keras.callbacks import Callback, EarlyStopping
+    from tensorflow.keras.optimizers import Adam
     from geopy.distance import geodesic
     import ydata_profiling
     import os
     import shutil
     from google.colab import drive
+    from google.colab import files
     import tensorflowjs as tfjs
     import warnings
+    warnings.filterwarnings("ignore")
     import folium
     from folium.plugins import MarkerCluster
     ```
