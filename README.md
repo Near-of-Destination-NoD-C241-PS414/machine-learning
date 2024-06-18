@@ -2,7 +2,7 @@
 
 ---
 Team ID : `C241-PS414`
-<p>
+
 ## Description
 > Near of Destination (NoD) is a recommendation system designed to help users find the best tourist attractions close to their location. The project utilizes various techniques in data wrangling, data exploration, and machine learning to provide accurate and relevant recommendations based on user preferences.
 ---
@@ -46,7 +46,7 @@ Team ID : `C241-PS414`
     import folium
     from folium.plugins import MarkerCluster
     ```
-<p>
+
 ## 2. Data Wrangling
   - **Gathering Data**:
     - Accessing datasets from Google Drive.
@@ -61,11 +61,11 @@ Team ID : `C241-PS414`
     - Encoding categorical features.
     - One-hot encoding.
     - Handle data that does not match or error.
-<p>
+
 ## 3. Exploratory Data Analysis (EDA)
   - Profiling and data reporting using ydata_profiling.
   - Geospatial analysis using folium.
-<p>
+
 ## 4. Data Modeling
   - Content Based Filtering (CBF):
     - Step 1: **Calculate Distance with Geodesic**:
@@ -81,7 +81,7 @@ Team ID : `C241-PS414`
       - Convert the model to TensorFlow.js format.
     - Step 4: **Testing Model**:
       - Get recommendations based on category and distance.
-<p>
+
 ## 5. Recommendation
   - **Based on Tourism Type**:
     - Calculates the distance and recommends based on the user's selected tour category.
@@ -89,7 +89,7 @@ Team ID : `C241-PS414`
     - Calculates distance and recommends nearby tourist attractions.
   - **Based on Reviews**:
     - Calculates distance and sorts based on the number of reviews.
-<p>
+
 ## 6. Testing and Evaluation
   - Testing the model with various user scenarios to get recommendations.
 <p>
